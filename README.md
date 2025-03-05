@@ -1,2 +1,2 @@
 # SILFormer
-Learning Silhouette Tokens for Fine-Grained Bird Classification via Transformers
+A silhouette cue-aware image classification framework for bird ecological monitoring systems
