@@ -4,6 +4,9 @@ CR2Former: Contour-relation aware representation learning for fine-grained bird 
 ## 📑 Abstract
 Fine-grained bird image classification (FBIC) has attracted increasing attention in image processing due to its critical role in protecting endangered birds. Previous studies faced several challenges, such as complex environments, multifarious postures and backlight scenarios. To effectively address these challenges, we propose a novel contour token learning network (CR2Former) to learn discriminative features by explicitly incorporating contour structural information alongside critical visual cues. Specifically, the approach begins with a contour token construction module to estimate the bird contour and extract contour tokens. Then, a contour relationship mining module is developed to fuse visual and contour tokens and capture long-dependent between them. In addition, to learn bird distinctive features at multiple levels, a key cues awareness module is embedded within CR2Former. The performance of CR2Former was evaluated on two bird datasets: CUB200–2011 and NABirds. The framework demonstrates significant improvements over existing state-of-the-art methods. Furthermore, experiments on other fine-grained datasets demonstrate the framework's strong generalization capabilities across different classification tasks. The source code will be available upon request.
 
+<img width="900" height="608" alt="image" src="https://github.com/user-attachments/assets/f9280ff9-5ae3-4af1-8242-1596efc6a859" />
+
+
 ## 🌟 Key Contributions
 •A novelcontour relation aware network (CR2Former) is developed to efficiently combine contour information and visual cues for fine-grained classification of birds.
 
@@ -29,3 +32,5 @@ doi = {https://doi.org/10.1016/j.neucom.2026.132724},
 url = {https://www.sciencedirect.com/science/article/pii/S0925231226001219},
 author = {Hai Liu and Hao Zheng and Tingting Liu and Yu Song and Xiaolan Yang and Zhaoli Zhang},
 keywords = {Fine-grained bird image classification, Contour-relation representation, Image understanding, Transformers, Computer vision}
+
+H. Liu, H. Zheng, T. Liu, Y. Song, X. Yang, Z. Zhang. "CR2Former: Contour-relation aware representation learning for fine-grained bird image classification via Transformers." Neurocomputing, 2026:132724.
